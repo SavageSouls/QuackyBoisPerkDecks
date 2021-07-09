@@ -49,7 +49,7 @@ function LocalizationManager:text(string_id, ...)
 		or string_id == "custom_stoic'perk1n" and
 			"Stoic Skills"
 		or string_id == "custom_stoic'perk1d" and
-			"Basic stoic skills.."
+			"Basic stoic skills."
 		or string_id == "custom_stoic'perk3n" and
 			"Health Buffs"
 		or string_id == "custom_stoic'perk3d" and
@@ -66,5 +66,30 @@ function LocalizationManager:text(string_id, ...)
 			"Seasoned Brawler"
 		or string_id == "custom_stoic'perk9d" and
 			"You gain additional EXP and other small buffs."
+		-- ninja --
+		or string_id == "custom_ninja'name" and
+			"Ninja"
+		or string_id == "custom_ninja'desc" and
+			"An all around stealth perk deck."
+		or string_id == "custom_ninja'perk1n" and
+			"Weapons Training"
+		or string_id == "custom_ninja'perk1d" and
+			"Improved weapons skills, you induce more panic with weapons."
+		or string_id == "custom_ninja'perk3n" and
+			"Dodge"
+		or string_id == "custom_ninja'perk3d" and
+			"Your dodge skills are improved."
+		or string_id == "custom_ninja'perk5n" and
+			"Camoflage"
+		or string_id == "custom_ninja'perk5d" and
+			"While crouched you are far more camoflaged."
+		or string_id == "custom_ninja'perk7n" and
+			"Slight of Hand"
+		or string_id == "custom_ninja'perk7d" and
+			"You're faster at picking locks, your move speed is increased when your health is below #25%#, and you swap weapons quicker."
+		or string_id == "custom_ninja'perk9n" and
+			"Confidence"
+		or string_id == "custom_ninja'perk9d" and
+			"Your confidence is increased, meaning you answer pagers quicker and recieve more exp from missions."
 		or text_original(self, string_id, ...)
 	end

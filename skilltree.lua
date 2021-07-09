@@ -264,4 +264,82 @@ function SkillTreeTweakData:init(tweak_data)
 			desc_id = "custom_stoic'perk9d"
 		}
 	})
+	-- Ninja (combined stealth perk deck)
+	table.insert(self.specializations, {
+		name_id = "custom_ninja'name",
+		desc_id = "custom_ninja'desc",
+		{ -- skill 1 - WEAPON SKILLS
+			upgrades = {
+				"player_killshot_close_panic_chance",
+				"player_panic_suppression",
+				"weapon_passive_armor_piercing_chance"
+			},
+			cost = pc1,
+			icon_xy = {0, 0},
+			name_id = "custom_ninja'perk1n",
+			desc_id = "custom_ninja'perk1d"
+		},
+		ps2, -- skill 2 (all)
+		{ -- skill 3 - DODGE
+			upgrades = {
+				"player_tier_dodge_chance_1",
+				"player_tier_dodge_chance_2",
+				"player_tier_dodge_chance_3",
+				"player_level_2_dodge_addend_1",
+				"player_level_2_dodge_addend_2",
+				"player_level_2_dodge_addend_3",
+				"player_level_3_dodge_addend_1",
+				"player_level_3_dodge_addend_2",
+				"player_level_3_dodge_addend_3",
+				"player_level_4_dodge_addend_1",
+				"player_level_4_dodge_addend_2",
+				"player_level_4_dodge_addend_3"
+			},
+			cost = pc3,
+			icon_xy = {1, 1},
+			name_id = "custom_ninja'perk3n",
+			desc_id = "custom_ninja'perk3d"
+		},
+		ps4, -- skill 4 (all)
+		{ -- skill 5 - CAMOFLAGE
+			upgrades = {
+				"player_camouflage_multiplier",
+				"player_stand_still_crouch_camouflage_bonus_1",
+				"player_stand_still_crouch_camouflage_bonus_2",
+				"player_stand_still_crouch_camouflage_bonus_3"
+			},
+			cost = pc5,
+			icon_xy = {1, 1},
+			name_id = "custom_ninja'perk5n",
+			desc_id = "custom_ninja'perk5d"
+		},
+		ps6, -- skill 6 (all)
+		{ -- skill 7 - SPEED
+			upgrades = {
+				"player_corpse_dispose_speed_multiplier",
+				"player_movement_speed_damage_health_ratio_multiplier",
+				"player_movement_speed_damage_health_ratio_threshold_multiplier",
+				"player_pick_lock_speed_multiplier",
+				"weapon_passive_swap_speed_multiplier_1",
+				"team_passive_stamina_multiplier_1"
+			},
+			cost = pc7,
+			icon_xy = {1, 1},
+			name_id = "custom_ninja'perk7n",
+			desc_id = "custom_ninja'perk7d"
+		},
+		ps8, -- skill 8 (all)
+		{ -- skill 9 - MISC
+			upgrades = {
+				"player_alarm_pager_speed_multiplier",
+				"passive_player_xp_multiplier",
+				"player_xp_multiplier",
+				"team_xp_multiplier"
+			},
+			cost = pc9,
+			icon_xy = {1, 1},
+			name_id = "custom_ninja'perk9n",
+			desc_id = "custom_ninja'perk9d"
+		}
+	})
 end
