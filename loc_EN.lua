@@ -74,7 +74,7 @@ function LocalizationManager:text(string_id, ...)
 		or string_id == "custom_ninja'perk1n" and
 			"Weapons Training"
 		or string_id == "custom_ninja'perk1d" and
-			"Improved weapons skills, you induce more panic with weapons."
+			"Improved weapons skills, you induce more panic with weapons. You also have the pocket ECM unlocked."
 		or string_id == "custom_ninja'perk3n" and
 			"Dodge"
 		or string_id == "custom_ninja'perk3d" and

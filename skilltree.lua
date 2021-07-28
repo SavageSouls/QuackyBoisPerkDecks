@@ -272,7 +272,9 @@ function SkillTreeTweakData:init(tweak_data)
 			upgrades = {
 				"player_killshot_close_panic_chance",
 				"player_panic_suppression",
-				"weapon_passive_armor_piercing_chance"
+				"weapon_passive_armor_piercing_chance",
+				"pocket_ecm_jammer",
+				"player_pocket_ecm_jammer_base"
 			},
 			cost = pc1,
 			icon_xy = {0, 0},
@@ -293,7 +295,8 @@ function SkillTreeTweakData:init(tweak_data)
 				"player_level_3_dodge_addend_3",
 				"player_level_4_dodge_addend_1",
 				"player_level_4_dodge_addend_2",
-				"player_level_4_dodge_addend_3"
+				"player_level_4_dodge_addend_3",
+				"player_passive_health_multiplier_3"
 			},
 			cost = pc3,
 			icon_xy = {1, 1},
@@ -321,7 +324,8 @@ function SkillTreeTweakData:init(tweak_data)
 				"player_movement_speed_damage_health_ratio_threshold_multiplier",
 				"player_pick_lock_speed_multiplier",
 				"weapon_passive_swap_speed_multiplier_1",
-				"team_passive_stamina_multiplier_1"
+				"team_passive_stamina_multiplier_1",
+				"player_equipment_hack_speed_multiplier"
 			},
 			cost = pc7,
 			icon_xy = {1, 1},
@@ -334,7 +338,9 @@ function SkillTreeTweakData:init(tweak_data)
 				"player_alarm_pager_speed_multiplier",
 				"passive_player_xp_multiplier",
 				"player_xp_multiplier",
-				"team_xp_multiplier"
+				"team_xp_multiplier",
+				"player_hacker_crew_kill_health",
+				"player_passive_loot_drop_multiplier"
 			},
 			cost = pc9,
 			icon_xy = {1, 1},
